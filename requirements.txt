@@ -1,0 +1,11 @@
+# ML toolbox
+scikit-learn==1.2.0 
+
+# IDE + EDA
+jupyter
+jupyterlab
+matplotlib
+seaborn
+
+# Tools
+tqdm
