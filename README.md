@@ -1,8 +1,12 @@
-# deep-lab
-A digital laboratory to play with different architectures and gather new ideas.
+# Deep-lab
+This repository was inspired by : [Dan Suh's - Deep Learning Roadmap](https://github.com/dansuh17/deep-learning-roadmap).
 
-## Env creation
+> This repository is my digital laboratory. It will allow me to deepen my knowledge, to work with different architectures and maybe to gather new ideas outside my research field.
 
+
+## Environment
+
+### Environment creation 
 ```bash
 conda create -n deep-lab-p3.9 python=3.9
 conda activate deep-lab-p3.9
@@ -11,8 +15,46 @@ pip install tensorflow-gpu==2.10
 pip install -r requirements.txt
 ```
 
-## Env launching
-
+### Environment launching
 ```bash
 jupyter lab .
 ```
+
+
+---
+## Knowledge base
+### Courses & lectures I followed
+- My master's lectures
+- [Stanford's CS231n Class Notes](http://cs231n.github.io/)
+  
+### Classic CNN Architectures implementation
+- [x] **LeNet5** (1998) [[paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)]
+    - LeCun et al. "Gradient-Based Learning Applied to Document Recognition"
+- [x] **AlexNet** (2012) [[paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)]
+    - Alex Krizhevsky et al. "ImageNet Classification with Deep Convolutional Neural Networks"
+- [ ] **ZFNet** (2013) [[paper](https://arxiv.org/abs/1311.2901)]
+    - Zeiler et al. "Visualizing and Understanding Convolutional Networks"
+- [x] **VGG** (2014)
+    - Simonyan et al. "Very Deep Convolutional Networks for Large-Scale Image Recognition" (2014) [Google DeepMind & Oxford's Visual Geometry Group (VGG)] [[paper](https://arxiv.org/abs/1409.1556)]
+    - _VGG-16_: Zhang et al. "Accelerating Very Deep Convolutional Networks for Classification and Detection" [[paper](https://arxiv.org/abs/1505.06798?context=cs)]
+- [ ] **GoogLeNet**, a.k.a **Inception v.1** (2014) [[paper](https://arxiv.org/abs/1409.4842)]
+    - Szegedy et al. "Going Deeper with Convolutions" [Google]
+    - Original [LeNet page](http://yann.lecun.com/exdb/lenet/) from Yann LeCun's homepage.
+    - [ ] **Inception v.2 and v.3** (2015) Szegedy et al. "Rethinking the Inception Architecture for Computer Vision" [[paper](https://arxiv.org/abs/1512.00567)]
+    - [ ] **Inception v.4 and InceptionResNet** (2016) Szegedy et al. "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning" [[paper](https://arxiv.org/abs/1602.07261)]
+    - "A Simple Guide to the Versions of the Inception Network" [[blogpost](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)]
+- [ ] **ResNet** (2015) [[paper](https://arxiv.org/abs/1512.03385)]
+    - He et al. "Deep Residual Learning for Image Recognition"
+- [ ] **Xception** (2016) [[paper](https://arxiv.org/abs/1610.02357)]
+    - Chollet, Francois - "Xception: Deep Learning with Depthwise Separable Convolutions"
+- [ ] **MobileNet** (2016) [[paper](https://arxiv.org/abs/1704.04861)]
+    - Howard et al. "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
+    - A nice paper about reducing CNN parameter sizes while maintaining performance.
+- [ ] **DenseNet** (2016) [[paper](https://arxiv.org/abs/1608.06993)]
+    - Huang et al. "Densely Connected Convolutional Networks"
+
+### Digital Signal processing & chemometrics implementation
+- [x] **CNNVS** (2016) [[paper - Elsevier : code will not be accessible on this repository)](https://doi.org/10.1016/j.aca.2016.12.010)]
+    - Acquarelli et al. "Convolutional neural networks for vibrational spectroscopic data analysis"
+- [x] **DeepSpectra** (2018) [[paper - Elsevier : code will not be accessible on this repository)](https://doi.org/10.1016/j.aca.2019.01.002)]
+    - Zhang et al. "DeepSpectra: An end-to-end deep learning approach for quantitative spectral analysis"
