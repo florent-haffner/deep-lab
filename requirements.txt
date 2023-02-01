@@ -1,5 +1,6 @@
 # ML toolbox
 scikit-learn==1.2.0 
+tensorflow-datasets==4.8.2
 
 # IDE + EDA
 jupyter

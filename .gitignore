@@ -1,3 +1,6 @@
+# Datasets
+datasets/
+
 # Model weights & architecture
 *.h5
 
