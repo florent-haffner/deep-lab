@@ -1,8 +1,4 @@
 # Deep-lab
-This repository was inspired by : [Dan Suh's - Deep Learning Roadmap](https://github.com/dansuh17/deep-learning-roadmap).
-
-> This repository is my digital laboratory. It will allow me to deepen my knowledge, to work with different architectures and maybe to gather new ideas outside my research field.
-
 
 ## Environment
 
